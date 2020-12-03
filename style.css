@@ -1,49 +1,52 @@
 body{
     text-align: justify;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 18px;
-    background-image: url(https://www.publicdomainpictures.net/pictures/250000/velka/clean-blue-background-2.jpg);
-}
-
-p, li {
-    font-size: 16px;
-}
-h{
-    font-size: 18px;
+    font-size: 18px;  
+    margin: 0 1% 0 1%;  
 }
 
 #header{
     background-color: rgba(0, 255, 255, 0.548);
-    padding: 15px;
+    padding: 1px;
     margin: -10px; 
     word-spacing: 20px;
     font-weight: 700;
-    font-size: 20px;
-        
+    font-size: 18px;
+    border-bottom: 3px solid white;           
 }
 
 #fotochris{
     border-radius: 200%;
     border: 5px solid black;
-    width: 300px;
-    float: right;
+    width: 200px;
     margin-right: 100px;
+    margin-top: 20px;
 }
 
 #name{
     position: absolute;
-    margin: 200px 100px;
+    margin: 150px 0px 0px 325px;
 }
 
 #home{
     margin-left: 20px; 
 }
 
-#habilidades{
-    margin-top: 200px;
-}
 
 #lista{
     margin-left: 50px;
+}
+
+.nav-ul li{
+    display: inline;
+}
+
+#rodape{
+    background-color: aqua;
+    position: fixed;
+    width: 100%;
+    bottom: 0%;
+    margin: 0%;
+    text-align: center;
     
 }
