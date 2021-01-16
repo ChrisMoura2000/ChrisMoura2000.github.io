@@ -1,0 +1,155 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  opacity: 1;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+header nav ul li:nth-child(5) {
+  color: white;
+  background: #FCC614 0% 0% no-repeat padding-box;
+  border-radius: 25px;
+}
+
+.ul-header {
+  display: flex;
+  justify-content: space-between;
+  margin: 5px;
+}
+
+.nav-header {
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  box-shadow: 0px 5px 6px #00000029;
+  border: 1px solid #707070;
+  border-radius: 30px;
+  opacity: 1;
+  position: absolute;
+  width: 50%;
+  margin-left: 20%;
+  margin-top: 5%;
+}
+
+.area-login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  position: absolute;
+  margin-left: 80%;
+  background: #655F5D2E 0% 0% no-repeat padding-box;
+  border-radius: 20px;
+  height: 50%;
+  width: 16%;
+  margin-top: 2%;
+  opacity: 1;
+}
+
+.sou-aluno-txt {
+  margin-bottom: 25px;
+}
+
+.inputs-login-senha {
+  display: flex;
+  flex-direction: column;
+}
+
+.login-input {
+  text-align: center;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  border: 1px solid #707070;
+  border-radius: 23px;
+  opacity: 1;
+}
+
+section button {
+  width: 90%;
+}
+
+.cadastrese {
+  background: #BDD44F 0% 0% no-repeat padding-box;
+  border: 1px solid #707070;
+  border-radius: 23px;
+  opacity: 1;
+  height: 10%;
+  color: #FFFFFF;
+  opacity: 1;
+}
+
+.sobre-txt {
+  margin-top: 10%;
+  margin-left: 5%;
+  position: absolute;
+  font-size: 22pt;
+}
+
+.descricao-projeto {
+  margin-top: 15%;
+  margin-left: 5%;
+  width: 50%;
+  font-size: 18pt;
+  position: absolute;
+}
+
+.comunidade-txt {
+  position: absolute;
+  margin-top: 28%;
+  margin-left: 65%;
+  display: flex;
+  align-items: center;
+  width: 35%;
+  height: 70px;
+  background: #FCC614 0% 0% no-repeat padding-box;
+  border: 1px solid #707070;
+  border-radius: 38px;
+  opacity: 1;
+}
+
+.comunidade-txt p {
+  margin-left: 5%;
+}
+
+.contratar-empresa {
+  width: 35%;
+  height: 70px;
+  background: #BDD44F 0% 0% no-repeat padding-box;
+  border: 1px solid #707070;
+  border-radius: 38px;
+  opacity: 1;
+  position: absolute;
+  margin-top: 36%;
+  margin-left: 65%;
+  display: flex;
+  align-items: center;
+}
+
+.contratar-empresa p {
+  width: 85%;
+  margin-left: 5%;
+}
+
+footer nav ul {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+footer nav {
+  position: absolute;
+  margin-top: 95vh;
+  width: 90%;
+  background: #FCC614 0% 0% no-repeat padding-box;
+  border: 1px solid #707070;
+  opacity: 1;
+  margin-left: 3.5%; 
+}
