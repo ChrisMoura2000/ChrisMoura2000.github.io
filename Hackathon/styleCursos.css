@@ -4,7 +4,7 @@
 }
 
 body {
-    background-color: rgb(255, 255, 188);
+    background-color: rgb(216, 216, 154);
 }
 
 li {
@@ -14,6 +14,10 @@ li {
 a {
     text-decoration: none;
     color: black;
+}
+
+img {
+    height: 21vh;
 }
 
 .content-ul {
@@ -56,6 +60,10 @@ a {
     justify-content: space-around;
 }
 
+div img {
+    height: 15vh;
+}
+
 .final-section {
     display: flex;
     justify-content: space-evenly;
@@ -63,7 +71,7 @@ a {
 }
 
 .final-section div {
-    margin-top: 2%;
+    margin-top: 1%;
 }
 
 .text-gray {
