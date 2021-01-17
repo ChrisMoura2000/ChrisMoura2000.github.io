@@ -1,18 +1,173 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-        }
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
 
-    </style>
+    .bar-lateral-left {
+      width: 20%;
+      height: 110vh;
+      background: #FCC614 0% 0% no-repeat padding-box;
+      border: 1px solid #707070;
+      opacity: 0.64;
+      position: absolute;
+    }
+
+    h1 img {
+      width: 10%;
+      height: 10%;
+    }
+
+    .imgs-bar-left {
+      width: 75%;
+      height: 15%;
+      box-shadow: 0px 3px 6px #00000029;
+      border: 1px solid #707070;
+      opacity: 1;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 7%;
+    }
+
+    .play {
+      width: 50%;
+      height: 70%;
+    }
+
+    .main-content {
+      background: #FCC61478 0% 0% no-repeat padding-box;
+      border: 1px solid #707070;
+      border-radius: 5px;
+      opacity: 1;
+      position: absolute;
+      height: 60vh;
+      width: 50%;
+      margin-top: 5%;
+      margin-left: 25%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .bot-main {
+      position: absolute;
+      width: 20%;
+    }
+
+    .video-main {
+      width: 95%;
+    }
+
+    .dashboard {
+      background: #9400001F 0% 0% no-repeat padding-box;
+      box-shadow: 0px 5px 6px #00000029;
+      border: 1px solid #707070;
+      border-radius: 30px;
+      opacity: 1;
+      width: 20%;
+      height: 40vh;
+      position: absolute;
+      margin-left: 80%;
+    }
+
+    .dash-txt {
+      text-align: center;
+      font: normal normal normal 24px/33px Segoe UI;
+      letter-spacing: 0px;
+      color: #707070;
+      opacity: 1;
+      margin-top: 5%;
+      font-size: 16pt;
+    }
+
+    .grafic-image {
+      width: 90%;
+      height: 60%;
+      margin-left: 5%;
+      margin-top: 5%;
+    }
+
+    .notas {
+      width: 50vw;
+      height: 30vh;
+      background: #BDD44F 0% 0% no-repeat padding-box;
+      border: 1px solid #707070;
+      border-radius: 6px;
+      opacity: 0.86;
+      position: absolute;
+      margin-left: 25%;
+      margin-top: 38%;
+    }
+
+    .white-content {
+      width: 95%;
+      height: 60%;
+      background: #FFFFFF 0% 0% no-repeat padding-box;
+      border: 1px solid #707070;
+      opacity: 1;
+      margin-left: 2%;
+    }
+
+    .edit-1 {
+      width: 5%;
+      height: 20%;
+      margin-left: 2%;
+    }
+
+    .notas p {
+      margin-left: 2%;
+    }
+
+    .chat {
+      position: absolute;
+      margin-top: 25%;
+      margin-left: 75%;
+      opacity: 1;
+    }
+
+    .chat img {
+      width: 100%;
+      height: 100%;
+    }
+
+    a {
+      text-decoration: none;
+      color: black;
+    }
+
+  </style>
 </head>
 <body>
-    <div><img src="IMAGENS PROJETO/curso-professor-direito-fgv.png"></div>
+  <div class="bar-lateral-left">
+    <h1><img src="IMAGENS PROJETO/png/more-1.png"><a href="index.html">Menu</a></h1>
+    <div class="imgs-bar-left"><img src="IMAGENS PROJETO/png/eject-1.png" class="play"></div>
+    <div class="imgs-bar-left"><img src="IMAGENS PROJETO/png/eject-1.png" class="play"></div>
+    <div class="imgs-bar-left"><img src="IMAGENS PROJETO/png/eject-1.png" class="play"></div>
+    <div class="imgs-bar-left"><img src="IMAGENS PROJETO/png/eject-1.png" class="play"></div>
+    <div class="imgs-bar-left"><img src="IMAGENS PROJETO/png/eject-1.png" class="play"></div>
+  </div>
+  <div class="dashboard">
+    <p class="dash-txt">DASHBOARD DE CURSOS</p>
+    <img src="IMAGENS PROJETO/tipos-de-graficos-y-diagramas-1.jpg" class="grafic-image">
+  </div>
+  <div class="main-content">
+    <img src="IMAGENS PROJETO/curso-professor-direito-fgv.png" class="video-main"><img src="IMAGENS PROJETO/png/eject-1.png" class="bot-main">
+  </div>
+  <div class="notas">
+    <img src="IMAGENS PROJETO/png/edit-1.png" class="edit-1">
+    <p>Notas</p>
+    <input type="text" class="white-content">
+  </div>
+  <div class="chat">
+    <img src="IMAGENS PROJETO/smartsupp-chat-widget-sm-7748.png">
+  </div>
+
 </body>
 </html>
