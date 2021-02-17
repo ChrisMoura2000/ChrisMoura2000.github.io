@@ -12,9 +12,10 @@ header a {
 
 .nav {
     height: 10vh;
-    background-image: linear-gradient(to bottom, rgb(0, 0, 200), rgb(2, 111, 148));
+    background: gray;
     display: flex;
     align-items: center;
+    border-bottom: 3px solid black;
 }
 
 .nav-ul {
@@ -34,14 +35,18 @@ li {
 a {
     text-decoration: none;
     font-weight: bold;
+    color:whitesmoke;
 }
 
 .home {
-    height: 90vh;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
 
 .descricao, .habilidades {
-    height: 40vh;
+    height: 50vh;
     background-color: lightskyblue;
     display: flex;
     flex-direction: column;
@@ -54,17 +59,34 @@ a {
 
 .habilidades {
     background-color: lightcyan;
-    justify-content: space-around;
+    justify-content: center;
+}
+
+.social-medias {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.social-medias a {
+    margin: 5%;
+}
+
+.projetos ol li {
+    margin: 5% 0;
 }
 
 .rodape {
-    display: flex;
-    justify-content: space-evenly;
     align-items: center;
-    height: 5vh;
-    background-image: linear-gradient(to top, rgb(0, 0, 200), rgb(2, 41, 148));
+    display: flex;
+    justify-content: space-around;
+    height: 20vh;
+    border-top: 3px solid black;
+    background: gray;
 }
 
-.rodape a {
-    color: white;
+a:hover{
+    color: lightseagreen;
 }
